@@ -45,7 +45,7 @@ const Layout = () => {
 					<Route exact path={"/estetica-facial"} >
 						<EsteticaFacial />
 					</Route>
-				<Route exact path={"/promo-odontologia"} >
+					<Route exact path={"/promo-odontologia"} >
 						<PortfolioOverview />
 					</Route>
 					<Route exact path={"/promo-estetica"} >

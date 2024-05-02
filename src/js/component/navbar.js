@@ -4,7 +4,7 @@ import iconDP from "../../img/iconDP2.jpg";
 
 const Navbar = () => {
     return <>
-        <main className="flex-shrink-0"></main>
+        <main className="flex-shrink-0">
         {/* Navigation*/}
         <nav className="navbar navbar-expand-lg">
             <div className="container px-5">
@@ -107,7 +107,7 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
-        <main />
+        </main>
     </>
 }
 
