@@ -101,3 +101,98 @@ rgb(247, 100, 247) */
   border-width: 2px;
   text-shadow: 0 0 0.2em purple, 0 0 0.2em purple;
 }
+
+/* Button Whatsapp*/
+.Wame:hover {
+  filter: brightness(135%);
+  transition: all .5s ease-in;
+  transform: scale(1.1);
+  transition-duration: .3s;
+}
+
+.fixed-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.fixed-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-container .tooltip-text {
+  visibility: hidden;
+  width: 100px;
+  background-color: rgb(227, 88, 255);
+  color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 2px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 20%;
+  margin-left: -50px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .fixed-button {
+    width: 30px;
+    height: 30px;
+  }
+
+  .tooltip-container .tooltip-text {
+    width: 80px;
+    font-size: 16px;
+    padding: 2px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 180%;
+    left: 20%;
+    margin-left: -40px;
+  }
+
+  .fixed-button-container {
+    right: 25px;
+  }
+}
+
+/* Button scroll to top*/
+.scroll-to-top-button-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px; /* Change to right if you prefer */
+  z-index: 100;
+}
+
+.scroll-to-top-button {
+  background-color: #acaf00; /* Color similar al botón de contacto */
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.scroll-to-top-button:hover {
+  filter: brightness(150%);
+}
