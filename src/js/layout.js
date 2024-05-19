@@ -2,6 +2,9 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Navbar from "./component/Navbar";
+import Footer from "./component/footer";
+import ButtonWame from "./component/buttonWame";
+
 import Home from "./component/home";
 import NuestraMision from "./component/nuestra-mision";
 import Contacto from "./component/contacto";
@@ -12,7 +15,6 @@ import EsteticaFacial from "./component/estetica-facial";
 import PortfolioOverview from "./component/promo-odontologia";
 import PortfolioItem from "./component/promo-estetica";
 import NotFound from "./component/NotFound";
-import Footer from "./component/footer";
 
 
 
@@ -53,6 +55,7 @@ const Layout = () => {
 					</Route>
 					<Route component={NotFound} />
 				</Switch>
+				<ButtonWame/>
 				<Footer />
 			</BrowserRouter>
 		</div>
