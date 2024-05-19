@@ -133,7 +133,7 @@ rgb(247, 100, 247) */
 .tooltip-container .tooltip-text {
   visibility: hidden;
   width: 100px;
-  background-color: rgb(227, 88, 255);
+  background-color: purple;
   color: #ffffff;
   text-align: center;
   border-radius: 5px;
@@ -184,7 +184,7 @@ rgb(247, 100, 247) */
 }
 
 .scroll-to-top-button {
-  background-color: #acaf00; /* Color similar al botón de contacto */
+  background-color: purple; /* Similar color to the contact button. */
   color: #fff;
   padding: 10px 15px;
   border: none;

@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navbar from "./component/Navbar";
 import Footer from "./component/footer";
 import ButtonWame from "./component/buttonWame";
+import ScrollToTopButton from "./component/buttonScrollToTop";
 
 import Home from "./component/home";
 import NuestraMision from "./component/nuestra-mision";
@@ -56,6 +57,7 @@ const Layout = () => {
 					<Route component={NotFound} />
 				</Switch>
 				<ButtonWame/>
+				<ScrollToTopButton/>
 				<Footer />
 			</BrowserRouter>
 		</div>
