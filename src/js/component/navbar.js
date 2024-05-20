@@ -49,7 +49,6 @@ const Navbar = () => {
                                     role="button"
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
-                                    onClick={handleNavCollapse}
                                 >
                                     Servicios
                                 </NavLink>
@@ -82,7 +81,6 @@ const Navbar = () => {
                                     role="button"
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
-                                    onClick={handleNavCollapse}
                                 >
                                     Promociones
                                 </NavLink>
