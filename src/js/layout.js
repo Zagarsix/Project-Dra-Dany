@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import Navbar from "./component/Navbar";
+import Navbar from "./component/Navbar.js";
 import Footer from "./component/footer";
 import ButtonWame from "./component/buttonWame";
 import ScrollToTopButton from "./component/buttonScrollToTop";
