@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
-import iconDP from "../../img/iconDP2.jpg";
+import iconDP from "../../img/iconDP.jpg";
 
 const Navbar = () => {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
