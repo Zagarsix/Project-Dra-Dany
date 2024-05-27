@@ -27,7 +27,15 @@ const Navbar = () => {
                         aria-label="Toggle navigation"
                         onClick={handleNavCollapse}
                     >
-                        <span className="navbar-toggler-icon" />
+                        {isNavCollapsed ? (
+                            <>
+                                <i className="fas fa-bars" />
+                            </>
+                        ) : (
+                            <>
+                                <i className="fas fa-times" />
+                            </>
+                        )}
                     </button>
                     <div className={`${navCollapseClass} collapse navbar-collapse`} id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">

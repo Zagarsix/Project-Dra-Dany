@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import fotoDany from "../../img/wallpaper.jpg";
 import tapadurasResina from "../../img/tapaduras-de-resina.jpg";
 import botox from "../../img/Inyección-de-botox.jpg";
-import tuboVale from "../../img/Vale-tubo.jpg"
+import tuboVale from "../../img/Vale-tubo.jpg";
 import iconDP from "../../img/iconDP2.jpg";
 
 const Home = () => {
