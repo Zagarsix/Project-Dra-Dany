@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
-import iconDP from "../../img/iconDP.jpg";
+import iconDP from "../../img/iconDetail.jpg";
 
 const Navbar = () => {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -14,7 +14,7 @@ const Navbar = () => {
             {/* Navigation*/}
             <nav className="navbar navbar-expand-lg">
                 <div className="container px-5">
-                    <NavLink className="navbar-brand" to="/" onClick={handleNavCollapse}>
+                    <NavLink className="navbar-brand" to="/" onClick={() => setIsNavCollapsed(true)}>
                         <img className="mx-3" src={iconDP} alt="logo-brand" width="120" height="100" />
                     </NavLink>
                     <button
