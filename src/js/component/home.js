@@ -7,11 +7,20 @@ import botox from "../../img/Inyección-de-botox.jpg";
 import tuboVale from "../../img/Vale-tubo.jpg";
 import iconDP from "../../img/iconDP.jpg";
 
+import fondoMorado from "../../img/vecteezy-hd.jpg";
+
 const Home = () => {
+  const headerStyle = {
+    backgroundImage: `URL(${fondoMorado})`,
+    backgroundPosition: 'center center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+  };
+
   return <>
     <main className="flex-shrink-0">
       {/* Header*/}
-      <header className="bg-dark py-5">
+      <header className="bg-dark py-5" style={headerStyle}>
         <div className="containerDany px-5">
           <div className="row gx-5 align-items-center justify-content-center">
             <div className="col-lg-8 col-xl-7 col-xxl-6">
@@ -197,7 +206,7 @@ const Home = () => {
         </div>
       </section>
       {/* Testimonial section*/}
-      <div className="py-5 bg-light">
+      <div className="bg-light py-5">
         <div className="container px-5 my-5 text-white">
           <div className="row gx-5 justify-content-center">
             <div className="col-lg-10 col-xl-7">
